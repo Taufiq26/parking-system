@@ -63,7 +63,11 @@ public class ParkingController {
         Parking p = parkingRepository.findOneWhoStillParking(police_number);
         parkingRepository.doParkingOut(police_number, new Timestamp(System.currentTimeMillis()));
 
-        return new RedirectView("/parking/result?id="+p.getId()+"&f=i");
+        Integer id = 0;
+        if (p != null)
+            id = p.getId();
+
+        return new RedirectView("/parking/result?id="+id+"&f=i");
     }
 
     @GetMapping("/parking/result")
