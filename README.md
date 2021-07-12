@@ -8,7 +8,7 @@ Simple application system for parking area.
 ## Spec
 - Java 13
 - Spring Framework Boot v2.5.2
-- MySql Database
+- MySql Database (untuk database akan auto generate ketika aplikasi dijalankan)
 - VS Code v1.58.0
 
 ```
