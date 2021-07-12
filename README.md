@@ -9,6 +9,7 @@ Simple application system for parking area.
 - Java 13
 - Spring Framework Boot v2.5.2
 - MySql Database
+- VS Code v1.58.0
 
 ```
 Ditujukan untuk memenuhi UAS Pemrograman VI.
